@@ -5,7 +5,7 @@
   }
   
   body {
-    /* Font Style*/
+    /* font color */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -78,7 +78,6 @@
     background-position: center;
     position: relative;
   }
-  /* Hero Style End */
   
   .hero-form {
     border: 3px solid #024e76;
@@ -120,7 +119,8 @@
     padding: 10px 20px;
     font-size: 16px;
   }
-  
+  /* hero styles end*/
+
   .intro {
     text-align: center;
   }
@@ -164,11 +164,11 @@
   
   .section-title {
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
     color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
   }
   
   .primary-border {
@@ -179,7 +179,7 @@
     border-color: #39a6b2;
   }
   
-.trainers {
+  .trainers {
     text-align: center;
   }
   
@@ -225,18 +225,22 @@
   .text-right {
     text-align: right;
   }
-  /*Reach Out Styles Start*/
+  
+  /* REACH OUT STYLES START */
   .contact {
-      text-align: center;
-      background: #024e76;
+    text-align: center;
+    background: #024e76;
   }
+  
   .contact h2 {
     color: #fce138;
   }
+  
   .contact-info iframe {
     width: 400px;
     height: 400px;
   }
+  
   .contact-info div {
     width: 410px;
     display: inline-block;
@@ -245,12 +249,14 @@
     margin: 30px 0 0 60px;
     color: white;
   }
+  
   .contact-info h3 {
     color: #fce138;
     font-size: 32px;
   }
   
-  .contact-info p, .contact-info address {
+  .contact-info p,
+  .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
